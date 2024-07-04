@@ -29,7 +29,8 @@ pnpm dev
 ```
 ### 2. Visualizar en el navegador
 Una vez inicializado el servidor de desarrollo, puedes visualizarlo en el navegador dandole (ctrl + click) en la url o en tu navegador predeterminado ingresando a http://localhost:3000.
-![Texto alternativo](public/next.svg)
+
+![Texto alternativo](public/CapturaReadme.svg)
 
 
 
