@@ -1,0 +1,20 @@
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 24px;
+}
+
+.sectionOne .aboutme {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Media Querys */
+@media (max-width: 425px) {
+  .sectionOne {
+    margin: 24px 15px;
+  }
+}

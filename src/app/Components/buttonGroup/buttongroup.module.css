@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px 24px;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+.container button {
+    background: transparent;
+    border: none;
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-bottom: 20px;
+    transition: color 0.2s linear;
+}
+
+.container button:hover {
+    color: white;
+}
+
+/* Boton activo */
+.container button.active {
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+
+/* Media Querys */
+@media (max-width: 425px) {
+    .container {
+        justify-content: center;
+        margin: 0px !important;
+    }
+
+    .container button {
+        font-size: 16px;
+    }
+  }

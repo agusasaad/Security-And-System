@@ -1,0 +1,86 @@
+.containerModal {
+  background: rgba(0, 0, 0, 0.508);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.containerModal .modal {
+  max-width: 1000px;
+  height: min-content;
+  padding: 24px;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: #151515;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.containerModal .containerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.containerModal .containerInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.containerModal .containerButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.containerButtons button {
+  max-width: 100px;
+  padding: 10px 15px;
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+/* Animacion para el Modal */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* Media Querys */
+@media (max-width: 425px) {
+  .containerButtons button {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+}

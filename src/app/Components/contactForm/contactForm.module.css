@@ -1,0 +1,111 @@
+.sectionThree {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 24px;
+  position: relative;
+}
+
+.sectionThree form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sectionThree form input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(31, 31, 31);
+  height: 50px;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+}
+
+.sectionThree form textarea {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid rgb(31, 31, 31);
+  height: 150px;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  border-radius: 5px;
+}
+
+.sectionThree form button {
+  max-width: 100px;
+  padding: 10px 15px;
+  background: #171717;
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.sectionThree form button:hover {
+  background: white;
+  color: black;
+}
+
+/* Estilos de confirmacion de formulario */
+.confirmForm {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  -webkit-animation: scale-up-center 0.2s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.confirmForm h2 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.confirmForm span {
+  font-size: 50px;
+}
+
+/* Animacion para el texto de confirmacion de formulario */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* Media Querys */
+@media (max-width: 425px) {
+  .sectionThree {
+    margin: 24px 15px;
+  }
+  .sectionThree form input {
+    font-size: 14px;
+  }
+
+  .sectionThree form textarea {
+    font-size: 14px;
+  }
+}
