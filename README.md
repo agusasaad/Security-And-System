@@ -1,4 +1,4 @@
-# Proyecto con Next.js
+# Prueba técnica para Security and System con Next.js
 
 Este es un proyecto de [Next.js](https://nextjs.org/) creado inicialmente con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
