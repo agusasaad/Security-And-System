@@ -35,11 +35,11 @@ const ContactForm = () => {
   // Confirmo el envío del form, vaciamos el form y cerramos el modal
   const handleConfirm = () => {
     setShowModal(false);
-    setConfirmForm(true); //Le muestro el mensaje de confirmacion al usuario
+    setConfirmForm(true);
 
     setTimeout(() => {
-      setFormData({ name: "", email: "", message: "" }); // Vacio el form 
-      setConfirmForm(false); // Ocultamos el mensaje de confirmación
+      setFormData({ name: "", email: "", message: "" }); 
+      setConfirmForm(false);
     }, 2500);
   };
 
