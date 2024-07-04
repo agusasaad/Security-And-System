@@ -6,7 +6,6 @@
 }
 
 .sectionOne .aboutme {
-  max-width: 900px;
   display: flex;
   flex-direction: column;
   gap: 10px;

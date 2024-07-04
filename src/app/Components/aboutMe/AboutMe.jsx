@@ -9,11 +9,12 @@ const AboutMe = () => (
       <h2 className={inter.className}>Acerca mí</h2>
       <p>
         Hola, soy Agustin Asaad. Tengo 25 años y soy programador full stack,
-        especializado en el desarrollo front end. Desde que comencé mi carrera
-        en el mundo de la tecnología, he desarrollado una pasión profunda por
-        crear experiencias de usuario intuitivas y dinámicas. Mi enfoque
-        principal ha sido siempre asegurarme de que cada interfaz no solo sea
-        estéticamente agradable, sino también altamente funcional y accesible.
+        especializado en el desarrollo front end. Me concentro en brindar
+        experiencias de usuario de alta calidad, garantizando la facilidad de
+        uso y la satisfacción del usuario. Me motiva seguir aprendiendo y
+        creciendo profesionalmente, buscando oportunidades que me permitan
+        desarrollar mis habilidades y contribuir al éxito de la empresa con la
+        que colaboro.
       </p>
     </div>
     <div className={styles.aboutme}>

@@ -35,9 +35,10 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: rgb(94, 94, 94);
+  text-wrap: balance;
 }
 
 a {
@@ -48,7 +49,6 @@ a {
 footer {
   padding: 10px 0px;
   border-top: 1px solid rgb(31, 31, 31);
-  margin-top: 20px;
 }
 
 section {
@@ -63,7 +63,7 @@ section {
   }
 
   p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   footer {

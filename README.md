@@ -36,7 +36,7 @@ Una vez inicializado el servidor de desarrollo, puedes visualizarlo en el navega
 - **Ingresando manualmente:** Abre tu navegador predeterminado e ingresa la siguiente URL en la barra de direcciones:
   [http://localhost:3000](http://localhost:3000)
 
-![Captura de pantalla del proyecto](public/CapturaReadme.svg)
+![Captura de pantalla del proyecto](public/capturaDePantalla.png)
 
 
 
