@@ -27,10 +27,16 @@ yarn dev
 # o
 pnpm dev
 ```
-### 2. Visualizar en el navegador
-Una vez inicializado el servidor de desarrollo, puedes visualizarlo en el navegador dandole (ctrl + click) en la url o en tu navegador predeterminado ingresando a http://localhost:3000.
+### 3. Visualizar en el navegador
 
-![Texto alternativo](public/CapturaReadme.svg)
+Una vez inicializado el servidor de desarrollo, puedes visualizarlo en el navegador de dos maneras:
+
+- **Desde la consola:** Haz Ctrl + Click en la URL proporcionada por el servidor de desarrollo para abrirlo en un nuevo tab del navegador.
+
+- **Ingresando manualmente:** Abre tu navegador predeterminado e ingresa la siguiente URL en la barra de direcciones:
+  [http://localhost:3000](http://localhost:3000)
+
+![Captura de pantalla del proyecto](public/CapturaReadme.svg)
 
 
 
