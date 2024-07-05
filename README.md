@@ -39,6 +39,9 @@ Una vez inicializado el servidor de desarrollo, puedes visualizarlo en el navega
 ![Captura de pantalla del proyecto](public/capturaDePantalla.png)
 
 
+Deploy: https://security-system-prueba-tecnica.vercel.app/
+
+
 
 
 
